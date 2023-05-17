@@ -1,7 +1,7 @@
-const express = require('express')
+import express from 'express'; 
 const app = express()
 const port = 80
-const path = require("path");
+import path from "path"
 
 app.use('/', express.static(path.join(__dirname, 'static')));
 
